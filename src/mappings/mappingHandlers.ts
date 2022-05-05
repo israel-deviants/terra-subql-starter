@@ -29,6 +29,7 @@ export async function handleMessage(
   record.contract = msg.msg.toData().contract;
   record.sender = msg.msg.toData().sender;
   record.executeMsg = JSON.stringify(msg.msg.toData().execute_msg);
+  record.coins = JSON.stringify(msg.msg.toData().coins || "");
   await record.save();
 }
 

@@ -22,7 +22,7 @@ network:
   mantlemint: "https://mantlemint.terra-columbus-5.beta.api.onfinality.io:1320"
 dataSources:
   - kind: terra/Runtime
-    startBlock: 7304790
+    startBlock: 7304739
     mapping:
       file: ./dist/index.js
       handlers:

@@ -25,4 +25,5 @@ type Message @entity {
   contract: String!
   sender: String!
   executeMsg: String!
+  coins: String
 }
